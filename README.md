@@ -2,14 +2,6 @@
 This project develops a machine learning-based Network Intrusion Detection System (NIDS) for classifying network connections into Normal, DoS, Probe, R2L, and U2R. It uses the KDD Cup 1999 dataset, preprocesses 41 network traffic features, handles class imbalance using balanced sample weights, and compares Random Forest and XGBoost.
 Absolutely. Here is a **clean, professional, GitHub-ready `README.md`** based on what you actually built and tested.
 
-# Network Intrusion Detection System
-
-A machine learning-based Network Intrusion Detection System (NIDS) that analyzes network traffic and classifies it into normal activity or different attack categories.
-
-The project uses the KDD Cup 1999 dataset, compares Random Forest and XGBoost models, handles class imbalance, evaluates attack-focused performance, and deploys the selected model through a Flask API and Docker.
-
----
-
 ## Problem Statement
 
 Network systems generate large volumes of traffic, making manual detection of malicious activity difficult.
